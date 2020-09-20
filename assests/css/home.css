@@ -1,3 +1,141 @@
 body{
-    background-color: green;
+	margin: 0;
 }
+
+#header{
+	width: 100%;
+	height:80vh;
+	border:1px solid black;
+	background-image: url('../images/back2.jpg');
+	background-size: cover;
+}
+#nav{
+	width: 90%;
+	height: 10%;
+	margin-left:5%;
+	background-color: white;
+	margin-top: 4%;
+	/*background-color: tomato;*/
+}
+#carousel1{
+	width: 70%;
+	height: 60%;
+	margin-left:15%;
+	background-color: white;
+	margin-top: 4%;
+
+}
+/*.carousel-item{
+	width: 500px;
+	height: 400px;
+}*/
+.banner{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+    height:52vh;
+    /*width: 60vw;
+    margin-top:80px; */
+    
+}
+.banner1{
+    background-image: url('../images/cake2.jpg');
+}
+.banner2{
+    background-image: url('../images/strawberry.jpg');
+}
+.banner3{
+    background-image: url('../images/Rasmali.jpg');
+    
+}
+
+.carousel-caption{
+    padding-bottom: 30px;
+
+}
+.carousel-caption h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel-caption h2 span{
+
+    color: #edbb00;
+}
+.carousel-caption a{
+    background: #edbb00;
+    color:#fff;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius:25px;
+}
+.carousel-control.right{
+    background-image: none;
+}
+.carousel-control.left{
+    background-image: none;
+}
+.carousel-indicators .active{
+    background-color: #edbb00;
+    border-color: #edbb00;
+}
+ @media only screen and (min-width:768px) and (max-width:991px)
+ {
+  
+    .carousel-caption{
+        padding-bottom: 25px;
+    
+    }
+    .carousel-caption h2{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+ }
+ @media only screen and (max-width:767px){
+
+    .carousel-caption{
+        padding-bottom: 15px;
+    
+    }
+    .carousel-caption h2{
+        font-size: 28px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .carousel-caption a{
+        background: #edbb00;
+        color:#fff;
+        text-transform: uppercase;
+        padding: 10px 25px;
+        display: inline-block;
+        margin-top: 15px;
+        border-radius:20px;
+    }
+    #nav{
+        width: 90%;
+        height:10%;
+        background-color: white;
+        margin-top: 4%;
+        /*background-color: tomato;*/
+    }
+    #carousel1{
+        width: 80%;
+        height: 70%;
+        margin-left:10%;
+        background-color: white;
+        margin-top: 4%;
+    
+    }
+    .banner{
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height:56vh;
+        /*width: 60vw;
+        margin-top:80px; */
+        
+    }
+ }
