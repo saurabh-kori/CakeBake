@@ -1,5 +1,8 @@
 body{
-	margin: 0;
+    margin: 0;
+    font-family: monospace;
+    outline: none;
+    height: 100vh;
 }
 
 #header{
@@ -9,13 +12,13 @@ body{
 	background-image: url('../images/back2.jpg');
 	background-size: cover;
 }
-#nav{
+#navi{
 	width: 90%;
-	height: 10%;
+	/* height: 9%; */
 	margin-left:5%;
 	background-color: white;
 	margin-top: 4%;
-	/*background-color: tomato;*/
+	/* background-color: tomato; */
 }
 #carousel1{
 	width: 70%;
@@ -114,9 +117,9 @@ body{
         margin-top: 15px;
         border-radius:20px;
     }
-    #nav{
+    #navi{
         width: 90%;
-        height:10%;
+        /* height:10%; */
         background-color: white;
         margin-top: 4%;
         /*background-color: tomato;*/
@@ -139,3 +142,43 @@ body{
         
     }
  }
+
+ /* navigation-menu */
+ /* dropdown menu css */
+.navbar-inverse{
+    /* background-color: chocolate; */
+    border-color: transparent;
+}
+.navbar-inverse .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+#myNavbar .navbar-nav li a{
+    color: #fff;
+    font-size: 15px;
+}
+#myNavbar #signature-cake{
+    transition: all 0.3s ease-in-out;
+}
+
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #f0f0f0;
+    box-shadow: 2px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-menu a{
+    color: #000 !important;
+    font-size: 12px !important;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    transition: all 0.5s ease-in-out; 
+}
+.dropdown .dropdown-menu:hover{
+    background-color: #c9c7c7;
+}
